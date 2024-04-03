@@ -5,4 +5,14 @@
 .buttons{
     box-shadow: 0px 4px 0px #ff995f;
 }
+
+.buttons-2{
+    box-shadow: 0px 2px 0px #ff995f;
+}
   
+.bg-image{
+    background-image: url('/gr2.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
