@@ -3,6 +3,7 @@ import BentoBox from "@/components/BentoBox";
 import Excute from "@/components/Excute";
 import Hero from "@/components/Hero";
 import Project from "@/components/Project";
+import Reviews from "@/components/Reviews";
 import React from "react";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <BentoBox />
       <Excute />
       <Project />
+      <Reviews />
     </div>
   );
 }

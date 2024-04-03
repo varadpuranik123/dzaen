@@ -5,8 +5,9 @@ const hero = () => {
     <div className="w-full h-screen flex justify-center items-center">
         <div className=" flex flex-col bg-[#fffff1] px-10 py-6 w-[90%] h-[90%] border-[2px] border-[#333] rounded-2xl ">
           <div className="flex w-full h-[40%] ">
-            <div className="text-[190px] font-semibold w-[60%] leading-tight tracking-tight ">
-              <p>Hii <span className="text-[#ff995f] font-bold ">BOSS</span></p>
+            <div className="z-[1] overflow-hidden relative text-[190px] font-semibold w-[60%] leading-tight tracking-tight ">
+              <p className="">Hii <span className="text-[#fff] font-bold ">BOSS</span></p>
+              <Image className="w-[465px] absolute top-10 right-9 -z-[1] " src="./rect.svg" alt={""} width={0} height={0} ></Image>
             </div>
             <div className="w-[40%] h-full flex justify-center items-center ">
               <Image src="./star.svg" alt={""} width={100} height={100} className="w-full h-full" />
