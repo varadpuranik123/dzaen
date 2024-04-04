@@ -8,7 +8,7 @@ const Reviews = () => {
             <p className=" text-[#333]/60 font-medium text-lg ">Discover Testimonials from Satisfied Clients and Partners.</p>
         </div>
         <div className=" testimonials space-x-3 mt-12 w-[90%] h-[40%] flex">
-        <div className=" flex flex-col items-center justify-center buttons w-full h-full rounded-xl border-2 border-[#333] bg-[#FF995F]/15">
+        <div className=" flex flex-col items-center justify-center buttons-3 w-full h-full rounded-xl border-2 border-[#333] bg-[#FF995F]/15">
                 <div className="flex flex-col w-[90%] h-[80%]  ">
                     <div className=" w-full h-[35%]  flex">
                         <div className=" w-[20%] h-full ">
@@ -29,7 +29,7 @@ const Reviews = () => {
                     </div>
                 </div>
             </div>
-            <div className=" flex flex-col items-center justify-center buttons w-full h-full rounded-xl border-2 border-[#333] bg-[#FF995F]/15">
+            <div className=" flex flex-col items-center justify-center buttons-3 w-full h-full rounded-xl border-2 border-[#333] bg-[#FF995F]/15">
                 <div className="flex flex-col w-[90%] h-[80%]  ">
                     <div className=" w-full h-[35%]  flex">
                         <div className=" w-[20%] h-full ">
@@ -50,7 +50,7 @@ const Reviews = () => {
                     </div>
                 </div>
             </div>
-            <div className=" flex flex-col items-center justify-center buttons w-full h-full rounded-xl border-2 border-[#333] bg-[#FF995F]/15">
+            <div className=" flex flex-col items-center justify-center buttons-3 w-full h-full rounded-xl border-2 border-[#333] bg-[#FF995F]/15">
                 <div className="flex flex-col w-[90%] h-[80%]  ">
                     <div className=" w-full h-[35%]  flex">
                         <div className=" w-[20%] h-full ">

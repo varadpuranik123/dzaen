@@ -9,6 +9,10 @@
 .buttons-2{
     box-shadow: 0px 2px 0px #ff995f;
 }
+
+.buttons-3{
+    box-shadow: 0px 4.5px 0px #ff995f;
+}
   
 .bg-image{
     background-image: url('/gr2.png');

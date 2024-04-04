@@ -17,7 +17,7 @@ const BentoBox = () => {
           </div>
           <div className=" py-2 overflow-hidden items-center text-start flex flex-col justify-center p-10 buttons w-full h-full border-[2px] border-[#333] rounded-xl  ">
               <div className="w-[50%] h-[50%] ">
-                <Image src='./responsive.svg' className=" mt-1 scale-[1.6] w-full h-full  object-fil " alt={''} width={0} height={0} ></Image>
+                <Image src='./responsive.svg' className=" mt-1 scale-[1.5] w-full h-full  object-fil " alt={''} width={0} height={0} ></Image>
               </div>
               <div className="w-full ">
                 <h3 className="mt-1 text-[28px] font-[500] tracking-tight leading-tight ">Responsive Mastery</h3>
