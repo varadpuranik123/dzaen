@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const BentoBox = () => {
   return (
-    <div className=" flex flex-col items-center w-full h-[111vh] ">
+    <div className=" flex flex-col items-center w-full h-[119vh] ">
       <div className="w-full text-center space-y-1">
         <p className=" text-[#333] text-6xl "><span className="text-[#FF995F] font-bold ">Boss,</span> Explore Our Digital Mastery!</p>
         <p className=" text-[#333]/60 font-medium text-lg ">Unlock Your Brand's Potential Online.</p>
       </div>
-      <div className="w-[90%] flex h-full  space-x-4 mt-4">
+      <div className="w-[90%] flex h-full  space-x-4 mt-10">
         <div className="w-full h-full space-y-4 flex flex-col  ">
           <div className="  overflow-hidden flex flex-col justify-center items-start p-10 buttons w-full h-full border-[2px] border-[#333] rounded-xl  ">
               <Image src='./bespoke.svg' className="w-full h-full object-fil -translate-y-2" alt={''} width={0} height={0} ></Image>
