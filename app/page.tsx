@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import BentoBox from "@/components/BentoBox";
 import Excute from "@/components/Excute";
+import Faq from "@/components/Faq";
 import Hero from "@/components/Hero";
 import Plans from "@/components/Plans";
 import Project from "@/components/Project";
@@ -17,6 +18,7 @@ export default function Home() {
       <Project />
       <Reviews />
       <Plans />
+      <Faq />
     </div>
   );
 }
