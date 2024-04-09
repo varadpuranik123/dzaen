@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import localfont from "next/font/local";
 import "./globals.css";
 
 const inter = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"] });
+
+const satoshi = localfont ({
+  src:[
+    {
+      path:"../public/fonts/SATOSHI-REGULAR.ttf"
+    },
+  ],
+  variable:"--font-satoshi",
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${satoshi.variable} ${inter.className}`}>{children}</body>
     </html>
   );
 }
