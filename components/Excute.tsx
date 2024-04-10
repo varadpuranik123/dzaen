@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 const Excute = () => {
   return (
@@ -58,7 +58,7 @@ const Excute = () => {
                         <p className="md:text-4xl text-2xl font-bold ">Post-launch Support</p>
                     </div>
                     <div className="w-full h-[80%] ">
-                        <p className=" md:text-[22px] md:leading-8 md:w-[34rem] w-full text-[#333]/80 font-extrabold ">Our commitment doesn't end with the launch. We offer ongoing support and maintenance to address any issues and ensure your landing page continues to perform at its best.</p>
+                        <p className=" md:text-[22px] md:leading-8 md:w-[34rem] w-full text-[#333]/80 font-extrabold ">Our commitment doesn&apos;t end with the launch. We offer ongoing support and maintenance to address any issues and ensure your landing page continues to perform at its best.</p>
                     </div>
                 </div>
             </div>
