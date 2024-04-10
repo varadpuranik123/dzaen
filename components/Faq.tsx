@@ -1,15 +1,35 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 const Faq = () => {
-    const [isOpen, setIsOpen] = useState([false, false]); // Initialize isOpen state for each details element
+    const [isOpen, setIsOpen] = useState([false, false]);
+    const [viewportWidth, setViewportWidth] = useState<number | null>(null);
 
-    const toggleDetails = (index:number) => {
-        const updatedIsOpen = [...isOpen]; // Create a copy of the isOpen array
-        updatedIsOpen[index] = !updatedIsOpen[index]; // Toggle the state for the clicked details element
-        setIsOpen(updatedIsOpen); // Update the state
+    const toggleDetails = (index:any) => {
+        const updatedIsOpen = [...isOpen];
+        updatedIsOpen[index] = !updatedIsOpen[index];
+        setIsOpen(updatedIsOpen);
     };
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            // Accessing window.innerWidth to get the viewport width
+            setViewportWidth(window.innerWidth);
+
+            // Adding event listener to update viewport width on resize
+            const handleResize = () => {
+                setViewportWidth(window.innerWidth);
+            };
+
+            window.addEventListener('resize', handleResize);
+
+            // Clean up the event listener when the component unmounts
+            return () => {
+                window.removeEventListener('resize', handleResize);
+            };
+        }
+    }, []);
 
     return (
         <div className="w-full min-h-[80vh] flex flex-col justify-center items-center">
