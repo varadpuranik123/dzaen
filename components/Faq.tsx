@@ -22,6 +22,7 @@ const Faq = () => {
                 setViewportWidth(window.innerWidth);
             };
     
+            // Adding event listener only in the browser environment
             window.addEventListener('resize', handleResize);
     
             // Clean up the event listener when the component unmounts
