@@ -1,5 +1,3 @@
-"use client";
-
 import About from "@/components/About";
 import BentoBox from "@/components/BentoBox";
 import Excute from "@/components/Excute";
