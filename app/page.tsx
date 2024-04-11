@@ -1,3 +1,5 @@
+"use client";
+
 import About from "@/components/About";
 import BentoBox from "@/components/BentoBox";
 import Excute from "@/components/Excute";
@@ -9,10 +11,17 @@ import Plans from "@/components/Plans";
 import Project from "@/components/Project";
 import Reviews from "@/components/Reviews";
 import LocomotiveScroll from 'locomotive-scroll';
+import { useEffect } from "react";
 
 export default function Home() {
   
-  const locomotiveScroll = new LocomotiveScroll();
+  useEffect(() => {
+    import('locomotive-scroll').then(LocomotiveScroll => {
+      const locomotiveScroll = new LocomotiveScroll.default();
+    }).catch(error => {
+      console.error('Failed to load LocomotiveScroll:', error);
+    });
+  }, []);
 
 
   return (
