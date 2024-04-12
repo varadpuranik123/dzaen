@@ -1,14 +1,29 @@
 import Image from "next/image"
+import { motion } from "framer-motion"
+
 
 const hero = () => {
   return (
-    <div className=" w-full lg:h-screen h-full flex justify-center items-center font-[900]">
+    
+    <div className=" w-full lg:h-screen h-full flex flex-col justify-center items-center font-[900]">
         <div className=" w-[90%] h-[95%] items-center flex flex-col pt-8 px-22 lg:space-y-4 space-y-2 ">
           <div className="  heading text-center">
             <div className="flex justify-center items-center space-x-2 lg:space-x-0">
-            <Image className="lg:w-32 lg:h-32 w-12 h-12" src="./star.svg" width={0} height={0} alt={""}></Image>
-              <h1 className="lg:text-9xl text-5xl font-[600] tracking-tight lg:leading-[90px] ">Hii <span className="text-[#FF995F] font-bold">BOSS</span></h1>
-            <Image className="lg:w-32 lg:h-32 w-12 h-12" src="./star.svg" width={0} height={0} alt={""}></Image>
+            <motion.span initial={{ rotate:0 }} 
+                         animate={{ rotate:-360 }}
+                         transition={{ ease: "linear",
+                                       repeat: Infinity,
+                                       duration: 1.5 }}
+                         className=""> <Image className="lg:w-32 lg:h-32 w-12 h-12" src="./star.svg" width={0} height={0} alt={""}></Image> 
+            </motion.span>             
+            <h1 className="lg:text-9xl text-5xl font-[600] tracking-tight lg:leading-[90px] ">Hii <span className="text-[#FF995F] font-bold">BOSS</span></h1>
+            <motion.span initial={{ rotate:0 }} 
+                         animate={{ rotate:360 }}
+                         transition={{ ease: "linear",
+                                       repeat: Infinity,
+                                       duration: 1.5 }}
+                         className=""> <Image className="lg:w-32 lg:h-32 w-12 h-12" src="./star.svg" width={0} height={0} alt={""}></Image> 
+            </motion.span>
             </div>
             <h1 className="lg:text-6xl text-4xl font-[600] tracking-tight ">what design you want</h1>
           </div>
