@@ -41,7 +41,7 @@ const hero = () => {
                 transition={{ duration:0.8,
                               ease: [0.34, 1.56, 0.64, 1]
                  }}
-              className=" lg:text-6xl text-4xl font-[600] tracking-tight ">what design you want</motion.h1>
+              className=" lg:text-6xl text-3xl font-[600] tracking-tight ">what design you want</motion.h1>
             </div>
           </div>
           <div className="overflow-hidden w-fit lg:h-32 items-center justify-center flex">
