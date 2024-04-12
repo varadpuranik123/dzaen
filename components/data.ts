@@ -1,27 +1,39 @@
 const data = [
     {
       id  : '1',
-      question: "What are accordion components?",
+      question: "How do I get started?",
       answer:
-        "Accordion components are user interface elements used for organizing and presenting content in a collapsible manner. They typically consist of a header, content, and an expand/collapse action.",
+        "Simply reach out to us via our contact form or email, and one of our team members will be in touch to discuss your project and guide you through the process.",
     },
     {
       id  : '2',
-      question: "What are they used for?",
+      question: "How long does it take to create a landing page?",
       answer:
-        "They are commonly employed in various contexts, including FAQs, product descriptions, navigation menus, settings panels, and data tables, to save screen space and provide a structured and user-friendly interface for presenting information or options.",
+        "The timeframe depends on the complexity of the project and the chosen plan. Typically, our pre-made templates can be deployed quickly, while custom designs may take longer. Contact us for a personalized estimate based on your requirements.",
     },
     {
       id  : '3',
-      question: "Accordion as a musical instrument",
+      question: "Can I request changes to my landing page after it's been created?",
       answer:
-        "The accordion is a musical instrument with a keyboard and bellows. It produces sound by air passing over reeds when the player expands or compresses the bellows, used in various music genres.",
+        "Yes, revisions are included in our Pro, Premium, and Enterprise plans. Simply let us know your feedback, and we'll make the necessary adjustments until you're satisfied with the result.",
     },
     {
       id  : '4',
-      question: "Can I create an accordion component with a different framework?",
+      question: "Do you provide hosting services for landing pages?",
       answer:
-        "Yes of course, it is very possible to create an accordion component with another framework.",
+        "We focus on design and development, but we can recommend reputable hosting providers to ensure your landing page is live and accessible to your audience.",
+    },
+    {
+      id  : '5',
+      question: "What happens if I'm not satisfied with the final result?",
+      answer:
+        "Client satisfaction is our priority. If you're not completely happy with the outcome, we'll work closely with you to address any concerns and make revisions until you're delighted with your landing page.",
+    },
+    {
+      id  : '6',
+      question: "Can I upgrade or downgrade my plan at any time?",
+      answer:
+        "Absolutely! You can upgrade or downgrade your plan at any time to better suit your evolving needs. Just get in touch with us, and we'll handle the rest.",
     },
   ];
 

@@ -2,35 +2,27 @@ import Image from "next/image"
 
 const hero = () => {
   return (
-    <div className="w-full md:h-screen flex justify-center md:items-center font-[900]">
-        <div className=" flex flex-col bg-[#fffff1] md:px-10 px-6 md:py-6 py-6 w-[90%] h-fit md:h-[90%] border-[2px] border-[#333] rounded-2xl ">
-          <div className="flex flex-col md:flex-row w-full md:h-[40%] ">
-            <div className="z-[1] relative md:text-[200px] text-7xl flex md:items-start items-center font-bold md:w-[60%] leading-tight tracking-tight ">
-              <p className=" ">Hii <span className="text-[#fffff1] ">BOSS</span></p>
-              <Image className="md:w-[485px] h-full md:h-[67%] w-[65%] absolute md:top-[49px] top-15 md:right-4 right-2 -z-[4] " src="./rect.svg" alt={""} width={0} height={0} ></Image>
+    <div className=" w-full lg:h-screen h-full flex justify-center items-center font-[900]">
+        <div className=" w-[90%] h-[95%] items-center flex flex-col pt-8 px-22 lg:space-y-4 space-y-2 ">
+          <div className="  heading text-center">
+            <div className="flex justify-center items-center space-x-2 lg:space-x-0">
+            <Image className="lg:w-32 lg:h-32 w-12 h-12" src="./star.svg" width={0} height={0} alt={""}></Image>
+              <h1 className="lg:text-9xl text-5xl font-[600] tracking-tight lg:leading-[90px] ">Hii <span className="text-[#FF995F] font-bold">BOSS</span></h1>
+            <Image className="lg:w-32 lg:h-32 w-12 h-12" src="./star.svg" width={0} height={0} alt={""}></Image>
             </div>
-            <div className="md:w-[40%] h-full flex md:justify-center justify-around items-center ">
-              <Image src="./star.svg" alt={""} width={100} height={100} className="md:w-full md:h-full w-24 h-24 " />
-              <Image src="./star2.svg" alt={""} width={100} height={100} className="md:w-full md:h-full w-24 h-24 " />
-              <Image src="./star.svg" alt={""} width={100} height={100} className="md:w-full md:h-full md:hidden w-24 h-24 " />
-            </div>
+            <h1 className="lg:text-6xl text-4xl font-[600] tracking-tight ">what design you want</h1>
           </div>
-          <div className="w-full md:h-[50%] h-12 items-center flex ">
-            <div className="md:w-[20%] w-24 md:h-full h-16 flex items-center justify-center ">
-              <Image src="./circles.svg" alt={""} width={30} height={30} className="md:w-full md:h-full w-36 h-36 " ></Image>
-            </div>
-            <div className="md:w-[80%] w-full md:h-full h-16 flex md:items-start items-center ">
-              <p className="md:text-[100px] text-xl md:pl-6 pl-2 md:pb-6 leading-tight tracking-tight font-semibold ">What design you want</p>
-            </div>
+          <div className=" w-fit items-center justify-center flex">
+            <p className=" border-2 py-2 lg:px-8 px-4 rounded-l-full border-[#333] border-r-0 lg:text-lg text-xs font-semibold text-center ">web design</p>
+            <p className=" border-2 py-2 lg:px-8 px-4 border-[#333] lg:text-lg text-xs font-semibold text-center ">Logo design</p>
+            <p className=" border-2 py-2 lg:px-8 px-4 rounded-r-full border-[#333] border-l-0 lg:text-lg text-xs font-semibold text-center ">Portfolio design</p>
           </div>
-          <div className="w-full flex h-full space-y-4 md:space-y-0 flex-col md:flex-row ">
-            <div className="md:w-[70%] md:h-full ">
-              <Image src="./art.svg" width={10} height={10} className="object-cover md:w-[100%] md:h-[100%] w-96 h-30 " alt={""}></Image>
-            </div>
-            <div className="w-full flex flex-col justify-center items-center md:gap-y-4 gap-y-2 md:h-full">
-              <button className="buttons border-2 border-[#333] md:px-10 px-4 md:py-8 py-4 w-full md:w-[90%] rounded-full font-semibold text-sm md:text-2xl">Join Us Now</button>
-              <button className="buttons border-2 border-[#fff] md:px-10 px-4 md:py-8 py-4 w-full md:w-[90%] rounded-full bg-[#ff995f] text-white font-semibold text-sm md:text-2xl">See OUR design</button>
-            </div>
+          <div className="CTAS flex lg:space-x-4 space-x-2 justify-center w-full">
+            <button className="lg:py-3 py-2 transition duration-300 lg:w-80 w-40 lg:text-xl text-xs border-2 border-[#333] bg-white hover:bg-[#fffcce] rounded-full buttons ">Join Us NOW</button>
+            <button className="lg:py-3 py-2 transition font-[400] duration-300 lg:w-80 w-40 lg:text-xl text-xs border-2 border-[#fff] bg-[#FF995F] hover:bg-[#FF995F]/80 text-white rounded-full buttons ">See OUR designs</button>
+          </div>
+          <div className="circle overflow-hidden lg:h-full h-36 w-full justify-center items-start  flex ">
+            <Image src="./circles.svg" className="lg:w-[36rem] lg:h-[36rem] lg:-translate-y-32 -translate-y-16 w-72 h-72" width={0} height={0} alt={""}></Image>
           </div>
         </div>
     </div>

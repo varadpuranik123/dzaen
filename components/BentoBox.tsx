@@ -12,9 +12,9 @@ const BentoBox = () => {
       </div>
       <div className="w-[90%] flex flex-col md:flex-row h-full md:space-x-4 md:space-y-0 space-y-4 mt-10">
         <div className="w-full h-full space-y-4 flex flex-col">
-          <div className="overflow-hidden flex flex-col justify-center items-start md:p-10 p-6 buttons w-full h-full border-[2px] border-[#333] rounded-xl">
+          <div className="overflow-hidden flex flex-col justify-center items-center text-start md:p-10 p-6 buttons w-full h-full border-[2px] border-[#333] rounded-xl">
             <Image src="./bespoke.svg" className="md:w-full md:h-full w-80 h-24 object-fil -translate-y-2" alt={""} width={0} height={0}></Image>
-            <h3 className="mt-1 md:text-[28px] text-[22px] font-semibold leading-tight">Bespoke Design</h3>
+            <h3 className="mt-1 md:text-[28px] text-[22px] font-semibold leading-tight w-full">Bespoke Design</h3>
             <p className="text-[#333]/80 font-extrabold">Every pixel meticulously crafted to reflect your brand&apos;s essence, ensuring an unforgettable digital identity.</p>
           </div>
           <div className="py-2 overflow-hidden items-center text-start flex flex-col justify-center md:p-10 p-6 buttons w-full h-full border-[2px] border-[#333] rounded-xl">
@@ -45,8 +45,8 @@ const BentoBox = () => {
         </div>
         <div className="w-full flex flex-col space-y-4 h-full">
           <div className="overflow-hidden items-center text-start flex flex-col justify-center md:p-10 p-8 buttons w-full h-full border-[2px] border-[#333] rounded-xl">
-            <div className="w-[100%] h-[100%] flex justify-center items-center">
-              <Image src="./visual.svg" className="-translate-y-6 mt-1 md:w-full md:h-full w-80 h-24 object-fil" alt={""} width={0} height={0}></Image>
+            <div className="w-[90%] h-[90%] flex justify-center items-center ">
+              <Image src="./visual.svg" className="-translate-y-6 mt-1 md:w-full md:h-full w-72 h-16 object-fil" alt={""} width={0} height={0}></Image>
             </div>
             <div className="w-full">
               <h3 className="mt-1 text-[22px] md:text-[28px] font-semibold leading-tight">Visual Enchantment</h3>
