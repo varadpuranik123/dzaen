@@ -24,7 +24,7 @@ const hero = () => {
                   duration:0.5,
                   ease:[0.68, -0.6, 0.32, 1.6]
                 }}
-              className=" lg:text-9xl text-5xl font-[600] tracking-tight lg:leading-[90px] ">Hii <span className="text-[#FF995F] font-bold">BOSS</span></motion.h1>  
+              className=" lg:text-9xl text-4xl font-[600] tracking-tight lg:leading-[90px] ">Hii <span className="text-[#FF995F] font-bold">BOSS</span></motion.h1>  
             </div>         
             <motion.span initial={{ rotate:0 }} 
                          animate={{ rotate:360 }}
