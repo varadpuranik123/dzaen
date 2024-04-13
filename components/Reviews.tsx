@@ -20,7 +20,7 @@ const Reviews = () => {
                             <p className=" w-full h-[50%] leading-tight lg:text-[13px] text-xs text-[#333]/70 font-semibold ">UI factory</p>
                         </div>
                         <div className=" w-[20%] flex items-center justify-end lg:justify-center h-full">
-                            <Image className="lg:w-16 lg:h-16 w-10 h-10 " src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smirking%20Face.png" alt="Smirking Face" width="25" height="25" />
+                            <Image className="lg:w-14 lg:h-14 w-10 h-10 " src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smirking%20Face.png" alt="Smirking Face" width="25" height="25" />
                         </div>
                     </div>
                     <div className="w-full h-[65%] lg:mt-4 mt-2  ">
@@ -41,7 +41,7 @@ const Reviews = () => {
                             <p className=" w-full h-[50%] leading-tight text-xs lg:text-[13px] font-semibold text-[#333]/70 ">UI factory</p>
                         </div>
                         <div className=" w-[20%] flex items-center justify-end lg:justify-center h-full ">
-                            <Image className="lg:w-16 lg:h-16 w-10 h-10 " src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smirking%20Face.png" alt="Smirking Face" width="25" height="25" />
+                            <Image className="lg:w-14 lg:h-14 w-10 h-10 " src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smirking%20Face.png" alt="Smirking Face" width="25" height="25" />
                         </div>
                     </div>
                     <div className="w-full h-[65%] lg:mt-4 mt-2  ">
@@ -62,7 +62,7 @@ const Reviews = () => {
                             <p className=" w-full h-[50%] leading-tight text-xs lg:text-[13px] font-semibold text-[#333]/70 ">UI factory</p>
                         </div>
                         <div className=" w-[20%] flex items-center justify-end lg:justify-center h-full ">
-                            <Image className="lg:w-16 lg:h-16 w-10 h-10 " src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smirking%20Face.png" alt="Smirking Face" width="25" height="25" />
+                            <Image className="lg:w-14 lg:h-14 w-10 h-10 " src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smirking%20Face.png" alt="Smirking Face" width="25" height="25" />
                         </div>
                     </div>
                     <div className="w-full h-[65%] lg:mt-4 mt-2  ">

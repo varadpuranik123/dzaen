@@ -21,8 +21,8 @@ const Project = () => {
                         </div>
                     </div>
                     <div className=" w-full h-[40%] flex flex-col justify-end space-y-2 ">
-                        <button className="buttons-2 w-full lg:h-12 h-10 tracking-wider text-xs lg:text-sm font-extrabold border-2 border-[#333] rounded-xl"> Explore Project</button>
-                        <button className="flex justify-center w-full lg:h-12 h-10 items-center buttons-2 font-[600] tracking-wider text-xs lg:text-sm border-2 border-[#fff] bg-[#FF995f] rounded-xl text-[#fff] "> Visit Website <span className=""><Image src='./arrow_circle.svg' className=" text-white ml-2" width={13} height={13} alt={''}></Image></span> </button>
+                        <button className="buttons-2 w-full lg:h-12 h-10 tracking-wider text-xs lg:text-sm font-extrabold border-2 border-[#333] rounded-xl hover:scale-95 transition duration-200 hover:bg-[#fffcce] "> Explore Project</button>
+                        <button className="flex justify-center w-full lg:h-12 h-10 items-center buttons-2 font-[600] tracking-wider text-xs lg:text-sm hover:scale-95 transition duration-200 hover:bg-[#FF995f]/80  border-2 border-[#fff] bg-[#FF995f] rounded-xl text-[#fff] "> Visit Website <span className=""><Image src='./arrow_circle.svg' className=" text-white ml-2" width={13} height={13} alt={''}></Image></span> </button>
                     </div>
                 </div>
             </div>
@@ -43,8 +43,8 @@ const Project = () => {
                         </div>
                     </div>
                     <div className=" w-full h-[40%] flex flex-col justify-end space-y-2 ">
-                        <button className="buttons-2 w-full lg:h-12 h-10 text-xs lg:text-sm font-extrabold tracking-wider border-2 border-[#333] rounded-xl"> Explore Project</button>
-                        <button className=" flex justify-center w-full lg:h-12 h-10 items-center buttons-2 font-[600] tracking-wider text-xs lg:text-sm border-2 border-[#fff] bg-[#FF995f] rounded-xl text-[#fff] "> Visit Website <span className=""><Image src='./arrow_circle.svg' className=" text-white ml-2" width={13} height={13} alt={''}></Image></span> </button>
+                        <button className="buttons-2 w-full lg:h-12 h-10 text-xs lg:text-sm font-extrabold tracking-wider border-2 border-[#333] rounded-xl hover:scale-95 transition duration-200 hover:bg-[#fffcce]"> Explore Project</button>
+                        <button className=" flex justify-center w-full lg:h-12 h-10 items-center buttons-2 font-[600] tracking-wider text-xs lg:text-sm border-2 border-[#fff] bg-[#FF995f] rounded-xl text-[#fff] hover:scale-95 transition duration-200 hover:bg-[#FF995f]/80 "> Visit Website <span className=""><Image src='./arrow_circle.svg' className=" text-white ml-2" width={13} height={13} alt={''}></Image></span> </button>
                     </div>
                 </div>
             </div>

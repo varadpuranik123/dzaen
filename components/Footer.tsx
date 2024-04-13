@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <div className="w-full lg:h-[10%] mb-2 lg:mb-0 flex lg:items-end items-center justify-between px-4 ">
                 <p className="lg:text-lg">All rights reserved</p>
-                <p className="lg:text-3xl underline underline-offset-8 ">Back To Top <span className=""><Image className="inline-block mb-1 scale-75 lg:scale-100" src="./upArrow.svg" width={20} height={20} alt={''}></Image></span> </p>
+                <p className="lg:text-3xl underline underline-offset-8 "><a href="#nav">Back To Top <span className=""><Image className="inline-block mb-1 scale-75 lg:scale-100" src="./upArrow.svg" width={20} height={20} alt={''}></Image></span></a> </p>
             </div>
         </div>
     </div>

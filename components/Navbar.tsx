@@ -40,7 +40,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" z-[90]  w-full flex overflow-hidden">
+    <div id="nav" className=" z-[90]  w-full flex overflow-hidden">
       <nav className="navbar bg-[#fffff7] w-full h-full lg:flex flex-col lg:flex-row items-center justify-between lg:px-10 px-0 py-2 ">
         <div className="logo overflow-hidden  lg:w-[42%] w-full h-full flex items-center justify-between lg-px-0 px-4 ">
           <Image className="lg:w-36 lg:h-24 w-24 h-24" src="./logo.svg" width={100} height={100} alt={""}></Image>
