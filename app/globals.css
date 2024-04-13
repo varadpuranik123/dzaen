@@ -6,6 +6,27 @@
     box-shadow: 0px 4px 0px #ff995f;
 }
 
+.images{
+    background-image: url('');
+}
+
+.herobuttons{
+    animation-name: opacitys;
+    animation-duration: 1000ms;
+    animation-timing-function: cubic-bezier(0.64, 0, 0.78, 0);
+}
+
+@keyframes opacitys {
+    from{
+        opacity: 0;
+        scale: 0;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
 
 .buttons-2{
     box-shadow: 0px 2px 0px #ff995f;

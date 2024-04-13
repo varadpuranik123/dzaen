@@ -11,14 +11,14 @@ const Faq = () => {
 
     return (
         <div className="w-full min-h-[80vh] flex flex-col justify-center items-center">
-            <div className="faq-container w-[90%] h-[80%] border-t-[2px] py-10 border-[#FF7A30] flex flex-col space-y-8 lg:space-y-0 md:flex-row">
-                <div className="md:w-1/2 w-full md:text-start text-center h-full">
-                    <p className="md:text-6xl text-4xl font-semibold md:max-w-[26rem] leading-[1.15] ">
+            <div className="faq-container w-[90%] h-[80%] border-t-[2px] py-10 border-[#FF7A30] flex flex-col space-y-8 lg:space-y-0 lg:flex-row">
+                <div className="lg:w-1/2 w-full lg:text-start text-center h-full">
+                    <p className="lg:text-6xl text-4xl font-semibold lg:max-w-[26rem] leading-[1.15] ">
                         You Got Any Questions{" "}
                         <span className="text-[#FF7A30] font-bold">Boss</span>
                     </p>
                 </div>
-                <div className=" md:w-1/2 w-full flex flex-col h-full  ">
+                <div className=" lg:w-1/2 w-full flex flex-col h-full  ">
                     <div className="accordion">
                         {data && data.length > 0 ? (
                             data.map((dataItem) => (
@@ -32,7 +32,7 @@ const Faq = () => {
                                             handleSingleSelection(dataItem.id)
                                         }
                                     >
-                                        <h3 className="lg:text-xl w-[95%] text-sm font-semibold">
+                                        <h3 className="lg:text-xl w-[95%] text-lg font-semibold">
                                             {dataItem.question}
                                         </h3>
                                         <span
@@ -52,7 +52,7 @@ const Faq = () => {
                                         </span>
                                     </div>
                                     {selected === dataItem.id ? (
-                                        <div className="lg:text-xl text-sm font-semibold text-[#333]/70 py-3">{dataItem.answer}</div>
+                                        <div className="lg:text-xl text-lg font-semibold text-[#333]/70 py-3">{dataItem.answer}</div>
                                     ) : null}
                                 </div>
                             ))
