@@ -23,7 +23,7 @@ const Plans = () => {
                   <p className=" text-sm tracking-wide text-[#333]/65 font-bold ">This is a Basic Plan <span className=" font-semibold text-[#FF7A30]/80 ">BOSS</span> :-</p>
                 </div>
                 <div className=" names-container w-full lg:h-[65%] h-full flex flex-col space-y-3 lg:space-y-0  ">
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg  ">
                     <div className="w-[85%] flex items-center h-full   ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Pre-made Templates</p>
                     </div>
@@ -31,7 +31,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg  ">
                     <div className="w-[85%] flex items-center h-full ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Responsive Design</p>
                     </div>
@@ -39,7 +39,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg  ">
                     <div className="w-[85%] flex items-center h-full ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Limited Revisions</p>
                     </div>
@@ -63,7 +63,7 @@ const Plans = () => {
                   <p className=" text-sm text-[#333]/65 font-bold tracking-wide ">This is a Pro Plan <span className=" font-semibold text-[#FF7A30]/80 ">BOSS</span> :-</p>
                 </div>
                 <div className=" names-container w-full h-[65%] flex flex-col -space-y-[5px] lg:-space-y-[0px] ">
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Pre-made Templates</p>
                     </div>
@@ -71,7 +71,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg  ">
                     <div className="w-[85%] flex items-center h-full ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Responsive Design</p>
                     </div>
@@ -79,7 +79,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg  ">
                     <div className="w-[85%] flex items-center h-full ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Limited Revisions</p>
                     </div>
@@ -87,7 +87,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Custom Design</p>
                     </div>
@@ -95,7 +95,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Animation</p>
                     </div>
@@ -120,7 +120,7 @@ const Plans = () => {
                   <p className=" text-sm tracking-wide text-[#333]/65 font-bold ">This is a Premium Plan <span className=" font-semibold text-[#FF7A30]/80 ">BOSS</span> :-</p>
                 </div>
                 <div className=" names-container w-full h-[65%]  flex flex-col -space-y-1 lg:-space-y-0 ">
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Pre-made Templates</p>
                     </div>
@@ -128,7 +128,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg  ">
                     <div className="w-[85%] flex items-center h-full ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Responsive Design</p>
                     </div>
@@ -136,7 +136,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg  ">
                     <div className="w-[85%] flex items-center h-full ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Unlimited Revisions</p>
                     </div>
@@ -144,7 +144,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Custom Design</p>
                     </div>
@@ -152,7 +152,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Animation</p>
                     </div>
@@ -160,7 +160,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Custom Illustration</p>
                     </div>
@@ -168,7 +168,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Expedited Delivery</p>
                     </div>
@@ -192,7 +192,7 @@ const Plans = () => {
                   <p className=" text-sm tracking-wide text-[#333]/65 font-bold ">This is a Enterprise Plan <span className=" font-semibold text-[#FF7A30]/80 ">BOSS</span> :-</p>
                 </div>
                 <div className=" names-container w-full h-[65%] flex flex-col -space-y-1 lg:-space-y-0 ">
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Pre-made Templates</p>
                     </div>
@@ -200,7 +200,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg  ">
                     <div className="w-[85%] flex items-center h-full ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Responsive Design</p>
                     </div>
@@ -208,7 +208,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg  ">
                     <div className="w-[85%] flex items-center h-full ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Unlimited Revisions</p>
                     </div>
@@ -216,7 +216,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Custom Design</p>
                     </div>
@@ -224,7 +224,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Animation</p>
                     </div>
@@ -232,7 +232,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Custom Illustration</p>
                     </div>
@@ -240,7 +240,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Expedited Delivery</p>
                     </div>
@@ -248,7 +248,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Account Manager</p>
                     </div>
@@ -256,7 +256,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Priority Support</p>
                     </div>
@@ -264,7 +264,7 @@ const Plans = () => {
                       <Image src='./greenTick.svg' className="scale-75 lg:scale-100" width={40} height={40} alt={''}></Image>
                     </div>
                   </div>
-                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10  ">
+                  <div className=" names w-full flex h-[10%] transition duration-300 hover:bg-black/10 rounded-lg   ">
                     <div className="w-[85%] flex items-center h-full  ">
                       <p className=" text-lg lg:text-[22px] font-bold "> Scalability</p>
                     </div>

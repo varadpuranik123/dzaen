@@ -52,7 +52,7 @@ const hero = () => {
                   duration:0.5,
                   ease:[0.68, -0.6, 0.32, 1.6]
                 }}
-            className=" border-2 py-2 lg:px-8 px-4 rounded-l-full border-[#333] border-r-0 lg:text-lg text-xs font-semibold text-center ">web design</motion.p>
+            className=" border-2 py-2 lg:px-8 px-4 rounded-l-full border-[#333] border-r-0 lg:text-lg text-xs font-semibold text-center ">Landing design</motion.p>
             <motion.p
                 initial={{ y:100 }}
                 animate={{ y:0 }}

@@ -46,6 +46,10 @@
     opacity: 0.9;
 }
 
+*::selection {
+    background-color: #ff9a5f4d; /* Change this to the color you desire */
+}
+
 .bg-image{
     background-image: url('/gr2.png');
     background-size: cover;

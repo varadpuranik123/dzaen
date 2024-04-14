@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
@@ -9,24 +10,80 @@ const Footer = () => {
                 <div className="w-full h-full ">
                     <Image src="./logoWhite.svg" width={55} height={55} alt={''}></Image>
                 </div>
-                <div className=" text-xl w-full h-full tracking-wider flex flex-col">
+                <motion.div
+                initial={{
+                    opacity:0,
+                    y:20
+                  }}
+        
+                  whileInView={{
+                    opacity:1,
+                    y:0
+                  }}
+        
+                  transition={{
+                    duration:0.5
+                  }}
+        
+                  viewport={{
+                    once:true
+                   }}
+                className=" text-xl w-full h-full tracking-wider flex flex-col">
                     <h5 className="font-semibold ">Navigation</h5>
                     <p className="">Home</p>
                     <p className="">About</p>
                     <p className="">Work</p>
                     <p className="">Plans</p>
-                </div>
-                <div className=" text-xl w-full h-full tracking-wider  flex flex-col">
+                </motion.div>
+                <motion.div
+                initial={{
+                    opacity:0,
+                    y:20
+                  }}
+        
+                  whileInView={{
+                    opacity:1,
+                    y:0
+                  }}
+        
+                  transition={{
+                    duration:0.5
+                  }}
+        
+                  viewport={{
+                    once:true
+                   }}
+                className=" text-xl w-full h-full tracking-wider  flex flex-col">
                     <h5 className="font-semibold ">Socials</h5>
                     <p className="">Instagram</p>
                     <p className="">X(twitter)</p>
                     <p className="">LinkedIn</p>
                     <p className="">Youtube</p>
-                </div>
+                </motion.div>
                 <div className="w-full h-full "></div>
             </div>
             <div className="w-full lg:h-[60%] items-center overflow-hidden justify-center  flex flex-col ">
-                <p className="lg:text-[480px] text-[120px] font-[300] text-[#fffcce]/60  ">DZAEN</p>
+                <motion.p
+                initial={{
+                    opacity:0,
+                    scale:0,
+                    y:"-20%"
+                  }}
+        
+                  whileInView={{
+                    opacity:1,
+                    scale:1,
+                    y:"0%"
+                  }}
+        
+                  transition={{
+                    duration:0.5
+                  }}
+        
+                  viewport={{
+                    once:true
+                   }}
+                className="lg:text-[480px] text-[120px] font-[300] text-[#fffcce]/60  ">DZAEN</motion.p>
             </div>
             <div className="w-full lg:h-[10%] mb-2 lg:mb-0 flex lg:items-end items-center justify-between px-4 ">
                 <p className="lg:text-lg">All rights reserved</p>

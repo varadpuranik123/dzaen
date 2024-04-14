@@ -1,14 +1,68 @@
+import { motion } from 'framer-motion'
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 
 const Reviews = () => {
-  return (
+    
+    return (
     <div className="w-full h-full lg:h-[80vh] flex flex-col items-center ">
         <div className="mt-32 w-full text-center space-y-2">
-            <p className=" text-[#333] px-1 lg:px-0 lg:text-6xl text-4xl font-semibold "><span className="text-[#FF995F] font-bold ">Boss</span> Hear What Others Are Saying! </p>
-            <p className=" text-[#333]/80 font-semibold text-xs lg:text-lg ">Discover Testimonials from Satisfied Clients and Partners.</p>
+            <motion.p
+            initial={{
+                opacity:0,
+                y:20
+              }}
+    
+              whileInView={{
+                opacity:1,
+                y:0
+              }}
+    
+              transition={{
+                duration:0.5
+              }}
+    
+              viewport={{
+                once:true
+               }}
+            className=" text-[#333] px-1 lg:px-0 lg:text-6xl text-4xl font-semibold "><span className="text-[#FF995F] font-bold ">Boss</span> Hear What Others Are Saying! </motion.p>
+            <motion.p
+            initial={{
+                opacity:0,
+                y:20
+              }}
+    
+              whileInView={{
+                opacity:1,
+                y:0
+              }}
+    
+              transition={{
+                duration:0.5
+              }}
+    
+              viewport={{
+                once:true
+               }}
+            className=" text-[#333]/80 font-semibold text-xs lg:text-lg ">Discover Testimonials from Satisfied Clients and Partners.</motion.p>
         </div>
-        <div className=" testimonials lg:space-x-3 space-y-3 lg:space-y-0 mt-12 w-[90%] h-[40%] flex flex-col lg:flex-row">
+        <motion.div
+
+            initial={{
+                x:"100%"
+            }}
+
+            transition={{
+                ease: "linear",
+                repeat: Infinity,
+                duration: 15
+            }}
+
+            animate={{
+                x:"-100%" 
+            }}
+
+        className=" testimonials space-x-3 mt-12 lg:w-[100%] w-[950px] h-[40%] flex flex-row lg:flex-row">
         <div className=" flex flex-col items-center justify-center buttons-3 w-full h-full rounded-xl border-2 border-[#333] bg-[#FF995F]/15">
                 <div className="flex flex-col w-[90%] h-[80%] py-2  ">
                     <div className=" w-full h-[35%] flex items-center py-3 lg:p-0 ">
@@ -72,7 +126,7 @@ const Reviews = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     </div>
   )
 }

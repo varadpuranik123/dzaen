@@ -26,7 +26,7 @@ export default function Home() {
 
 
   return (
-    <div className="overflow-x-hidden text-[#333] w-full font-satoshi min-h-screen bg-[#fffff7] " >
+    <div className=" select-blue overflow-x-hidden text-[#333] w-full font-satoshi min-h-screen bg-[#fffff7] " >
       <Navbar />
       <Hero />
       <About />
