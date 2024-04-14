@@ -155,7 +155,7 @@ const BentoBox = () => {
            }}
           className="overflow-hidden items-center text-start flex flex-col justify-center lg:p-10 p-8 buttons w-full h-full border-[2px] border-[#333] rounded-xl">
             <div className="w-[90%] h-[90%] flex justify-center items-center ">
-              <Image src="./visual.svg" className="-translate-y-6 mt-1 lg:w-full lg:h-full w-72 h-28 object-fil" alt={""} width={0} height={0}></Image>
+              <Image src="./visual.svg" className="-translate-y-6 mt-1 lg:w-full lg:h-52 w-72 h-28 object-fil" alt={""} width={0} height={0}></Image>
             </div>
             <div className="w-full">
               <h3 className="mt-1 text-[22px] lg:text-[28px] font-semibold leading-tight">Visual Enchantment</h3>
