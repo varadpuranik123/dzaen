@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Project = () => {
     return (
-        <div className="  w-full min-h-[100vh] flex flex-col justify-center items-center " >
+        <div id="project" className="  w-full min-h-[100vh] flex flex-col justify-center items-center " >
             <div className="mt-32 w-full text-center space-y-2">
                 <motion.p
                     initial={{

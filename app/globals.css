@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    scroll-behavior: smooth;
-}
 
 .buttons{
     box-shadow: 0px 4px 0px #ff995f;
@@ -52,6 +49,7 @@ html{
 
 *::selection {
     background-color: #ff9a5f4d; /* Change this to the color you desire */
+    scroll-behavior: smooth;
 }
 
 .bg-image{

@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="w-full lg:h-[80vh] h-full flex flex-col items-center">
+    <div id="about" className="w-full lg:h-[80vh] h-full flex flex-col items-center">
       <div className="about w-[90%] lg:px-8 px-4 lg:py-2 py-4 flex flex-col lg:flex-row lg:h-96 border-2 border-[#333] mt-10 rounded-xl">
         <motion.div
         initial={{
